@@ -1,0 +1,9 @@
+name: CustomNPC
+version: 1.0
+main: cz.tvojeserver.customnpc.CustomNPC
+api-version: '1.20'
+commands:
+  npc:
+    description: Sprava vlastnich NPC
+    usage: /npc <create|remove|cmd|list>
+    permission: customnpc.admin
